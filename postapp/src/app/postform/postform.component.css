@@ -1,0 +1,10 @@
+h2{
+    color: indigo;
+    text-align: center;
+}
+.container{
+    background-color: lightcoral;
+}
+.form-control{
+    background-color: gainsboro;
+}

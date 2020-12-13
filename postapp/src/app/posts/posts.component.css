@@ -1,0 +1,17 @@
+h2{
+    color: crimson;
+    text-align: center;
+}
+.container{
+    background-color:rgb(238, 163, 66);
+    padding: 20px 20px 20px 20px;
+
+}
+.card-header{
+    background-color:grey;
+    text-decoration: underline ;
+
+}
+.card-body{
+    background-color: cornflowerblue;
+}

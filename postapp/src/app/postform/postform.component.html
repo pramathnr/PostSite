@@ -1,0 +1,21 @@
+<app-header></app-header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Add Post</h2>
+            <form>
+                <div class="alert alert-success" *ngIf="postSaved">Post Saved Successfully</div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="postTitle" placeholder="Title" [(ngModel)]="postTitle">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" name="postDescription" placeholder="Description" [(ngModel)]="postDescription"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-warning" (click)="onCreatePost()">Save posts</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

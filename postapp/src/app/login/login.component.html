@@ -1,0 +1,20 @@
+<app-header></app-header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Login Now</h2>
+            <div class="alert alert-danger" *ngIf="!isLoggedInFailed">{{LoginFailureMessage}}</div>
+            <form>
+                <div class="form-group">
+                    <input class="form-control" type="email" name="email" placeholder="enter your email" [(ngModel)]="email">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="password" name="password" placeholder="enter your password" [(ngModel)]="password">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-danger" (click)="onLogin()">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
